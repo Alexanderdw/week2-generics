@@ -9,6 +9,7 @@ public class TeamMatchResultTest {
 	@Test
 	public void testOurTeamLostTest() {
 		Team<SoccerPlayer> ourTeam = new Team<>("OurTeam");
+		
 		Team<SoccerPlayer> opponentTeam = new Team<>("OpponentTeam");
 		assertEquals(0, ourTeam.getPlayed());
 		assertEquals(0, opponentTeam.getPlayed());
